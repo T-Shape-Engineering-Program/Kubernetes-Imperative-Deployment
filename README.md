@@ -5,5 +5,5 @@
 > Navigate to [Working with Persistent Volumes](persistentvolumes/README.md)
 
 # Ingress
-> Navigate to [Working with Config Maps](ingress/README.md)
+> Navigate to [Working with Ingress](ingress/README.md)
 
