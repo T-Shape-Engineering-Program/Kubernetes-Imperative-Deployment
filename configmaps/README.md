@@ -135,7 +135,7 @@ The Pod spec is where you apply configuration:
   <summary>Not sure how?</summary>
 
 ```
-kubectl apply -f labs/configmaps/specs/configurable/
+kubectl apply -f configmaps/specs/configurable/
 ```
 
 </details><br />
@@ -260,7 +260,7 @@ You can easily break your app if you get the volume mounts wrong:
 - [deployment-broken.yaml](specs/configurable/config-broken/deployment-broken.yaml) - mounts a ConfigMap into the `/app` directorry, which overwrites the actual app folder from the image
 
 ```
-kubectl apply -f labs/configmaps/specs/configurable/config-broken/
+kubectl apply -f configmaps/specs/configurable/config-broken/
 
 kubectl get pods -l app=configurable --watch
 ```
